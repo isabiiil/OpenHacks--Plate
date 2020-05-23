@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Patrick+Hand&display=swap');
+
+:root {
+  --white: #fbfffe;
+  --darkest: #3F3D56;
+  --gray: #999;
+  --lightgray: #eee;
+  --light: #b6e6bd;
+  --dark: #4baea0;
+  --yellow: #f1f0cf;
+  --pink: #f0c9c9;
+  --hand: 'Patrick Hand', cursive;
+  --sans: 'Lato', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: var(--darkest);
+  transition: all 0.2s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.homepage {
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--hand);
+}
+
+.header p {
+  font-family: var(--hand);
+  font-size: 80px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.Logo {
+  height: 100px;
+  display: inline-block;
+}
+
+.HomeImage {
+  float: right;
+  width: 50vh;
 }
