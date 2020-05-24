@@ -1,0 +1,24 @@
+@media all and (min-width: 225px) {
+    .Signup {
+      padding: 225px;
+      background-color:rgb(116, 114, 114);
+      height: 100%;
+      font-weight: bold;
+    }
+    .signup-title{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .Signup form {
+      margin: 0 auto;
+      max-width: 320px;
+      color:#A2F7B0;
+    }
+  }
+  
+  .Signup form span.help-block {
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #999;
+  }

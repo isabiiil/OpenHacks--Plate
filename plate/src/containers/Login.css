@@ -1,0 +1,24 @@
+@media all and (min-width: 225px) {
+    .Title{
+        text-align: center;
+        padding: 25px;
+        font-size: 40px;
+    }
+    .Login {
+        padding: 225px;
+        background-color:rgb(116, 114, 114);
+        height: 100%;
+        flex-wrap: wrap;
+        font-weight: bold;
+    }
+
+    .Login form{
+        margin: 0 auto;
+        max-width: 350px;
+        color:#A2F7B0;
+    }
+    .form-group{
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
