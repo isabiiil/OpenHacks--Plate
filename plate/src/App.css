@@ -18,6 +18,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  color: var(--darkest);
+  overflow-y: hidden;
 }
 
 a {
@@ -32,25 +34,49 @@ a {
 
 .header {
   height: auto;
+  margin-left: 30px;
+  margin-top: -60px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.description {
+  width: 400px;
+  margin-left: 120px;
+  margin-top: -620px;
+}
+
+h1 {
   font-family: var(--hand);
+  font-size: 40px;
 }
 
 .header p {
   font-family: var(--hand);
-  font-size: 80px;
+  font-size: 70px;
   display: inline-block;
-  margin: 0px;
+  margin-left: 10px;
+}
+
+.description p {
+  font-size: 20px;
+  font-family: var(--sans);
 }
 
 .Logo {
   height: 100px;
-  display: inline-block;
+  position: relative;
+  top: 30px;
 }
 
 .HomeImage {
   float: right;
-  width: 50vh;
+  width: 80vh;
+  margin-right: 150px;
+  margin-top: -50px;
+}
+
+.Blob {
+  width: 50%;
+  margin-left: -20px;
+  margin-top: -120px;
+  z-index: -1;
 }

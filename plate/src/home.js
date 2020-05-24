@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './App.css';
 import HomeImage from './res/comp.svg';
 import LogoIcon from './res/dinner.svg';
+import Blob from './res/blob.svg';
 import { Link } from 'react-router-dom';
 
 class Home extends Component {
@@ -18,8 +19,11 @@ class Home extends Component {
                     </Link>
                 </div>
                 <img className = "HomeImage" src = {HomeImage} alt = "Man next to project folders with check marks" />
-                {/* <h1>How much do you have on your PLATE?</h1>
-                <p>Keep track of all your tasks and responsibilities. Reprioritize based on time consumption and focus on efficiency instead. Get it done with Plate!</p> */}
+                <img className = "Blob" src = {Blob} alt = "Blob background" />
+                <div className = "description">
+                    <h1>How much do you have on your PLATE?</h1>
+                    <p>Keep track of all your tasks and responsibilities. Reprioritize based on time consumption and focus on efficiency instead. Get it done with Plate!</p>
+                </div>
             </div>
         );
     }
