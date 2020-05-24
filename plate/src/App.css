@@ -24,7 +24,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--darkest);
+  color: var(--darkest) !important;
   transition: all 0.2s ease;
 }
 
@@ -35,13 +35,12 @@ a {
 .header {
   height: auto;
   margin-left: 30px;
-  margin-top: -60px;
 }
 
 .description {
   width: 400px;
-  margin-left: 120px;
-  margin-top: -620px;
+  margin-left: 180px;
+  margin-top: -600px;
 }
 
 h1 {
@@ -49,7 +48,7 @@ h1 {
   font-size: 40px;
 }
 
-.header p {
+.header h6 {
   font-family: var(--hand);
   font-size: 70px;
   display: inline-block;
@@ -61,22 +60,28 @@ h1 {
   font-family: var(--sans);
 }
 
+Button {
+  background-color: var(--dark) !important;
+  border-color: var(--dark) !important;
+  margin: 20px;
+  float: right;
+}
+
 .Logo {
   height: 100px;
   position: relative;
-  top: 30px;
+  top: -18px;
 }
 
 .HomeImage {
   float: right;
-  width: 80vh;
+  width: 75vh;
   margin-right: 150px;
-  margin-top: -50px;
 }
 
 .Blob {
   width: 50%;
-  margin-left: -20px;
+  margin-left: 30px;
   margin-top: -120px;
   z-index: -1;
 }
