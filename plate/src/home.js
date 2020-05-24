@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 
+// CSS
 import 'antd/dist/antd.css';
 import './App.css';
 
+// Images
 import HomeImage from './res/comp.svg';
 import LogoIcon from './res/dinner.svg';
 import Blob from './res/blob.svg';
 
+// Components
 import { Button } from 'antd';
 
 class Home extends Component {
-    // constructor(props) {
-    //     super(props);
-    // }
     render() {
         return(
             <div className = "homepage">

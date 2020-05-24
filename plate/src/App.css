@@ -18,7 +18,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: var(--darkest);
+  color: var(--darkest) !important;
   overflow-y: hidden;
 }
 
@@ -32,20 +32,11 @@ a {
   margin: 10px;
 }
 
+/* Logo area */
+
 .header {
   height: auto;
   margin-left: 30px;
-}
-
-.description {
-  width: 400px;
-  margin-left: 180px;
-  margin-top: -600px;
-}
-
-h1 {
-  font-family: var(--hand);
-  font-size: 40px;
 }
 
 .header h6 {
@@ -55,9 +46,21 @@ h1 {
   margin-left: 10px;
 }
 
+/* left content of home */
+.description {
+  width: 400px;
+  margin-left: 150px;
+  margin-top: -600px;
+}
+
 .description p {
   font-size: 20px;
   font-family: var(--sans);
+}
+
+h1 {
+  font-family: var(--hand);
+  font-size: 40px;
 }
 
 Button {
@@ -67,6 +70,7 @@ Button {
   float: right;
 }
 
+/* Images */
 .Logo {
   height: 100px;
   position: relative;
@@ -84,4 +88,18 @@ Button {
   margin-left: 30px;
   margin-top: -120px;
   z-index: -1;
+}
+
+/* left content of tasks */
+.plates {
+  background-color: var(--yellow);
+  width: 35%;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  height: 100%;
+}
+
+Menu {
+  background-color: var(--yellow);
 }
