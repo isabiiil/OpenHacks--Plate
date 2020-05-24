@@ -15,7 +15,7 @@ import {
   UserOutlined,
 } from '@ant-design/icons';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Sider } = Layout;
 const { SubMenu } = Menu;
 
 class Tasks extends Component {
@@ -62,7 +62,6 @@ class Tasks extends Component {
                             Bill is a cat.
                             </div>
                         </Content>
-                        <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
                         </Layout>
                     </Layout>
             </div>
